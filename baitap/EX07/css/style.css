@@ -123,7 +123,7 @@ nav .active {
 #showcase {
     position: relative;
     min-height: 400px;
-    background-image: url('./anh.jpg'); /* Đảm bảo đúng đường dẫn */
+    background-image: url('../img/anh.jpg'); /* Đảm bảo đúng đường dẫn */
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
