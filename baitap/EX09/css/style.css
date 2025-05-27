@@ -3,7 +3,7 @@ body{
   margin: 0;
   padding: 0;
   line-height: 1.6;
-  background-color: #01434e;
+  background-color: #f2f6f7;
 }
 
 /* Global */
@@ -21,8 +21,8 @@ ul{
 }
 
 .button_1{
-  background: #011b2b;
-  color: #012941;
+  background: #5a5d5f;
+  color: #79bff5;
   padding: 10px 20px;
   border: none;
   cursor: pointer;
@@ -32,22 +32,22 @@ ul{
 }
 
 .dark{
-  background: #3f6177;
-  color: #03364b;
+  background: #747a7e;
+  color: #79bff5;
   padding: 15px;
 }
 
 /* Header **/
 header{
-  background: #1b3c50;
-  color: #012752;
+  background: #5d5e5f;
+  color: #79bff5;
   padding-top: 30px;
   min-height: 70px;
-  border-bottom: #110904 3px solid;
+  border-bottom: #7ee1fa 3px solid;
 }
 
 header a{
-  color: #05495a;
+  color: #79bff5;
   text-decoration: none;
   text-transform: uppercase;
   font-size: 16px;
@@ -65,7 +65,7 @@ header #branding{
 
 header #branding h1{
   margin: 0;
-  color: #043a5f;
+  color: #79bff5;
 }
 
 header nav{
@@ -74,12 +74,12 @@ header nav{
 }
 
 header .highlight, header .current a{
-  color: #032d5e;
+  color: #79bff5;
   font-weight: bold;
 }
 
 header a:hover{
-  color: #023455;
+  color: #79bff5;
   font-weight: bold;
 }
 
@@ -89,7 +89,7 @@ header a:hover{
   background: url('..img/maucuatoi1.png') no-repeat 0 -400px;
   background-size: cover;
   text-align: center;
-  color: #01354d;
+  color: #79bff5;
   padding-top: 100px;
 }
 
@@ -107,7 +107,7 @@ header a:hover{
 /* Newsletter */
 #newsletter{
   padding: 15px;
-  color: #024657;
+  color: #79bff5;
   background: #3c627a;
 }
 
@@ -142,9 +142,9 @@ header a:hover{
   padding: 10px;
   text-align: center;
   margin: 0 10px;
-  background: #012d4b;
+  background: #626464;
   border-radius: 5px;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  box-shadow: 0 2px 5px rgba(129, 92, 92, 0.1);
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -162,7 +162,7 @@ aside#sidebar{
   float: right;
   width: 30%;
   margin-top: 10px;
-  background: #003f52;
+  background: #636464;
   padding: 20px;
   border-radius: 5px;
   box-shadow: 0 2px 5px rgba(0,0,0,0.1);
@@ -171,7 +171,7 @@ aside#sidebar{
 aside#sidebar .quote input, aside#sidebar .quote textarea{
   width: 90%;
   padding: 5px;
-  border: 1px solid #014564;
+  border: 1px solid #eef3f5;
   border-radius: 3px;
   margin-bottom: 10px;
 }
@@ -180,7 +180,7 @@ aside#sidebar .quote input, aside#sidebar .quote textarea{
 article#main-col{
   float: left;
   width: 65%;
-  background: #014058;
+  background: #757779;
   padding: 20px;
   margin-top: 10px;
   border-radius: 5px;
@@ -188,8 +188,8 @@ article#main-col{
 }
 
 footer{
-  background: #00446e;
-  color: #014768;
+  background: #707274;
+  color: #79bff5;
   text-align: center;
   padding: 20px;
   margin-top: 20px;
