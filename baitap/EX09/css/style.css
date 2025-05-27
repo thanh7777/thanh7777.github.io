@@ -47,7 +47,7 @@ header{
 }
 
 header a{
-  color: #79bff5;
+  color: #2d2d2e;
   text-decoration: none;
   text-transform: uppercase;
   font-size: 16px;
@@ -65,7 +65,7 @@ header #branding{
 
 header #branding h1{
   margin: 0;
-  color: #79bff5;
+  color: #2a2a2b;
 }
 
 header nav{
@@ -89,7 +89,7 @@ header a:hover{
   background: url('../img/maucuatoi1.png') no-repeat 0 -400px;
   background-size: cover;
   text-align: center;
-  color: #79bff5;
+  color: #202020;
   padding-top: 100px;
 }
 
