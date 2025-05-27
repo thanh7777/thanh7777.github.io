@@ -3,7 +3,7 @@ body{
   margin: 0;
   padding: 0;
   line-height: 1.6;
-  background-color: #f4f4f4;
+  background-color: #01434e;
 }
 
 /* Global */
@@ -21,8 +21,8 @@ ul{
 }
 
 .button_1{
-  background: #35424a;
-  color: #ffffff;
+  background: #011b2b;
+  color: #012941;
   padding: 10px 20px;
   border: none;
   cursor: pointer;
@@ -32,22 +32,22 @@ ul{
 }
 
 .dark{
-  background: #35424a;
-  color: #ffffff;
+  background: #3f6177;
+  color: #03364b;
   padding: 15px;
 }
 
 /* Header **/
 header{
-  background: #35424a;
-  color: #ffffff;
+  background: #1b3c50;
+  color: #012752;
   padding-top: 30px;
   min-height: 70px;
-  border-bottom: #e8491d 3px solid;
+  border-bottom: #110904 3px solid;
 }
 
 header a{
-  color: #ffffff;
+  color: #05495a;
   text-decoration: none;
   text-transform: uppercase;
   font-size: 16px;
@@ -65,7 +65,7 @@ header #branding{
 
 header #branding h1{
   margin: 0;
-  color: #ffffff;
+  color: #043a5f;
 }
 
 header nav{
@@ -74,12 +74,12 @@ header nav{
 }
 
 header .highlight, header .current a{
-  color: #e8491d;
+  color: #032d5e;
   font-weight: bold;
 }
 
 header a:hover{
-  color: #cccccc;
+  color: #023455;
   font-weight: bold;
 }
 
@@ -89,7 +89,7 @@ header a:hover{
   background: url('..img/maucuatoi1.png') no-repeat 0 -400px;
   background-size: cover;
   text-align: center;
-  color: #ffffff;
+  color: #01354d;
   padding-top: 100px;
 }
 
@@ -107,8 +107,8 @@ header a:hover{
 /* Newsletter */
 #newsletter{
   padding: 15px;
-  color: #ffffff;
-  background: #35424a;
+  color: #024657;
+  background: #3c627a;
 }
 
 #newsletter h1{
@@ -142,7 +142,7 @@ header a:hover{
   padding: 10px;
   text-align: center;
   margin: 0 10px;
-  background: #ffffff;
+  background: #012d4b;
   border-radius: 5px;
   box-shadow: 0 2px 5px rgba(0,0,0,0.1);
   display: flex;
@@ -162,7 +162,7 @@ aside#sidebar{
   float: right;
   width: 30%;
   margin-top: 10px;
-  background: #ffffff;
+  background: #003f52;
   padding: 20px;
   border-radius: 5px;
   box-shadow: 0 2px 5px rgba(0,0,0,0.1);
@@ -171,7 +171,7 @@ aside#sidebar{
 aside#sidebar .quote input, aside#sidebar .quote textarea{
   width: 90%;
   padding: 5px;
-  border: 1px solid #cccccc;
+  border: 1px solid #014564;
   border-radius: 3px;
   margin-bottom: 10px;
 }
@@ -180,16 +180,16 @@ aside#sidebar .quote input, aside#sidebar .quote textarea{
 article#main-col{
   float: left;
   width: 65%;
-  background: #ffffff;
+  background: #014058;
   padding: 20px;
   margin-top: 10px;
   border-radius: 5px;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  box-shadow: 0 2px 5px rgba(35, 64, 71, 0.1);
 }
 
 footer{
-  background: #35424a;
-  color: #ffffff;
+  background: #00446e;
+  color: #014768;
   text-align: center;
   padding: 20px;
   margin-top: 20px;
