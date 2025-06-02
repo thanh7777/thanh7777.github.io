@@ -1,71 +1,225 @@
-<!DOCTYPE html>
-<html>
-  <head>
-     <meta charset="utf-8">
-     <meta name="viewport" content="width=device-width">
-     <meta name="description" content="Khám phá thế giới. Trải nghiệm tuyệt vời, Tour trọn niềm vui">
-     <meta name="keywords" content="Tuor, professional tuor, khám phá thế giới. trải nghiệm tuyệt vời, tour trọn niềm vui">
-     <meta name="author" content="Duc Thanh">
-     <title> Duc Thanh Tour | Trang chủ</title>
-     <link rel="stylesheet" href="./css/style.css">
-  </head>
-  <body>
-    <header>
-      <div class="container">
-        <div id="branding">
-          <h1><span class="highlight">Duc Thanh</span> Tour </h1>
-        </div>
-        <nav>
-          <ul>
-            <li class="current"><a href="trangchu.html">Trang chủ</a></li>
-            <li><a href="thongtin.html">Thông tin</a></li>
-            <li><a href="dichvu.html">Dịch vụ</a></li>
-          </ul>
-        </nav>
-      </div>
-    </header>
+/* Reset mặc định */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
-    <section id="showcase">
-      <div class="container">
-        <h1>Khám phá thế giới. Trải nghiệm tuyệt vời, Tour du lịch trọn niềm vui.</h1>
-        <p>Hành trình khám phá những miền đất mới, kết nối văn hóa và tận hưởng từng khoảnh khắc đáng nhớ cùng dịch vụ tour du lịch chuyên nghiệp, tận tâm.
-</p>
-      </div>
-    </section>
+/* Thiết lập font chữ và màu nền chung */
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background: #626368dc;
+    color: #111213d5;
+    line-height: 1.2;
+    margin: 0;
+    padding: 0;
+}
 
-    <section id="newsletter">
-      <div class="container">
-        <h1>Đăng ký để nhận thông báo mới từ chúng tôi</h1>
-        <form>
-          <input type="email" placeholder="Nhập Email...">
-          <button type="submit" class="button_1">Đăng ký</button>
-        </form>
-      </div>
-    </section>
+/* Container chính */
+.container {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
 
-    <section id="boxes">
-      <div class="container">
-        <div class="box">
-          <img src="img/img1.webp">
-          <h3>Khu Du Lịch Thác Yang Bay Ở Nha Trang</h3>
-          <p>Theo cảm nhận của nhiều #teamKlook từng vi vu đến địa điểm du lịch Nha Trang này, nét quyến rũ của Thác Yang Bay không chỉ nằm ở khung cảnh núi rừng hùng vĩ hay thảm xanh thiên nhiên bạt ngàn mà còn nhờ vào sự chân chất và hài hước của người dân tộc Raglai.</p>
-        </div>
-        <div class="box">
-          <img src="img/img2.jpg">
-          <h3>Nhà Hát Đó Ở Nha Trang</h3>
-          <p>Nhà hát Đó - một cái tên đầy thú vị và gợi lên sự tò mò ngay từ lần đầu nghe đến. Kiến trúc của nó cũng không kém phần độc đáo, với sự lấy cảm hứng từ chiếc đó - một dụng cụ truyền thống dùng để đánh bắt cá của người dân miền biển.</p>
-        </div>
-        <div class="box">
-          <img src="img/img3.png">
-           <h3>Nhà Thờ Đá Nha Trang</h3>
-          <p>Nhìn từ xa, nhà thờ trông hệt như một chuôi gươm màu xám khói chọc thẳng lên nền trời xanh thẳm, với điểm cao nhất là nơi đặt Thánh Giá Trên Tháp Chuông. Du khách sẽ không khỏi trầm trồ trước dãy cột đá to lớn, được sắp xếp khéo léo nhằm khuếch đại không gian thoáng đạt bên trong. Không khó để nhận ra hàng cửa sổ hình hoa hồng, mái vòm rộng cùng vô số chi tiết điêu khắc tinh xảo - nét đặc trưng của lối kiến trúc Gothic.
-.</p>
-      </div>
-      </div>
-    </section>
+.dark{
+  padding:15px;
+  background:#35424a;
+  color:#ffffff;
+  padding: 15px;
+  margin-top:10px;
+  margin-bottom:10px;
+}
 
-    <footer>
-      <p>Duc Thanh Tour, Copyright &copy; 2025</p>
-    </footer>
-  </body>
-</html>
+/* Header */
+header {
+  background: #04538100;
+  color: #fff;
+  padding-top: 30px;
+  min-height: 70px;
+  border-bottom: 4px solid #807c7c;
+}
+
+/* Branding (Logo) */
+#branding {
+  float: left;
+}
+
+#branding h1 {
+  font-size: 2em;
+}
+
+#branding .highlight {
+  color: #1b1a1d;
+  font-weight: bold;
+}
+
+/* Menu điều hướng */
+nav {
+  float: right;
+  margin-top: 10px;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav ul li {
+  display: inline;
+  margin-left: 20px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.1em;
+}
+
+nav ul li a:hover,
+nav ul li.current a {
+  color: #111013;
+  font-weight: bold;
+}
+
+/* Showcase */
+#showcase {
+  min-height: 400px;
+  background: url('../img/maucuatoi1 (1).png') no-repeat center center/cover;
+  text-align: center;
+  color: #000000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#showcase h1 {
+  font-size: 3em;
+  margin-bottom: 10px;
+}
+
+#showcase p {
+  font-size: 1.2em;
+  max-width: 600px;
+  margin: auto;
+}
+
+/* Newsletter */
+#newsletter {
+  padding: 15px;
+  background: #080808;
+  color: #fff;
+  text-align: center;
+}
+
+#newsletter h1 {
+  float: left;
+  margin-top: 15px;
+}
+
+#newsletter form {
+  float: right;
+  margin-top: 15px;
+}
+
+#newsletter input[type="email"] {
+  padding: 10px;
+  width: 250px;
+  border: none;
+  border-radius: 5px;
+}
+
+#newsletter .button_1 {
+  padding: 10px 20px;
+  background: #e8491d;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#newsletter .button_1:hover {
+  background: #cc3d14;
+}
+
+/* Boxes (Món ăn) */
+#boxes {
+  margin-top: 20px;
+}
+
+#boxes .box {
+  float: left;
+  width: 30%;
+  margin: 1.66%;
+  text-align: center;
+  padding: 10px;
+  background: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+#boxes .box:hover {
+  transform: translateY(-5px);
+}
+
+#boxes .box img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+#boxes .box h3 {
+  margin: 10px 0;
+  font-size: 1.5em;
+  color: #333;
+}
+
+#boxes .box p {
+  font-size: 1em;
+  color: #666;
+}
+
+/* Footer */
+footer {
+  background: #0a0a0a;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  header #branding,
+  header nav,
+  #newsletter h1,
+  #newsletter form {
+    float: none;
+    text-align: center;
+    width: 100%;
+  }
+
+  header {
+    padding-bottom: 20px;
+  }
+
+  #showcase h1 {
+    font-size: 2em;
+  }
+
+  #boxes .box {
+    float: none;
+    width: 90%;
+    margin: 5% auto;
+  }
+
+  #newsletter form {
+    margin-top: 10px;
+  }
+
+  #newsletter input[type="email"] {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+}
