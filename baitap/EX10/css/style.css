@@ -8,8 +8,8 @@
 /* Thiết lập font chữ và màu nền chung */
 body {
     font-family: 'Segoe UI', Arial, sans-serif;
-    background: #ffffff;
-    color: #2c3e50;
+    background: #626368dc;
+    color: #111213d5;
     line-height: 1.2;
     margin: 0;
     padding: 0;
@@ -33,11 +33,11 @@ body {
 
 /* Header */
 header {
-  background: #3a3f58;
+  background: #04538100;
   color: #fff;
   padding-top: 30px;
   min-height: 70px;
-  border-bottom: 4px solid #a29bfe;
+  border-bottom: 4px solid #807c7c;
 }
 
 /* Branding (Logo) */
@@ -50,7 +50,7 @@ header {
 }
 
 #branding .highlight {
-  color: #a29bfe;
+  color: #1b1a1d;
   font-weight: bold;
 }
 
@@ -77,16 +77,16 @@ nav ul li a {
 
 nav ul li a:hover,
 nav ul li.current a {
-  color: #a29bfe;
+  color: #111013;
   font-weight: bold;
 }
 
 /* Showcase */
 #showcase {
   min-height: 400px;
-  background: url('../img/maucuatoi1.png') no-repeat center center/cover;
+  background: url('../img/maucuatoi1 (1).png') no-repeat center center/cover;
   text-align: center;
-  color: #ffffff;
+  color: #000000;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -106,7 +106,7 @@ nav ul li.current a {
 /* Newsletter */
 #newsletter {
   padding: 15px;
-  background: #333;
+  background: #080808;
   color: #fff;
   text-align: center;
 }
@@ -182,7 +182,7 @@ nav ul li.current a {
 
 /* Footer */
 footer {
-  background: #3a3f58;
+  background: #0a0a0a;
   color: #fff;
   text-align: center;
   padding: 20px;
