@@ -3,49 +3,69 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Nguyễn Văn A | Lập trình viên Web</title>
-  <link rel="stylesheet" href="style.css" />
+  <meta name="description" content="Trang cá nhân của tôi - Lập trình viên, thiết kế web, sáng tạo nội dung." />
+  <meta name="author" content="Nguyễn Đức Thành" />
+  <title>Trang Cá Nhân | Nguyễn Đức Thành</title>
+  <link rel="stylesheet" href="./css/style.css" />
 </head>
 <body>
   <header class="hero">
     <div class="container">
-      <h1>Nguyễn Văn A</h1>
-      <p>Lập trình viên Front-end | UI/UX Designer | Freelancer</p>
-      <nav class="main-nav">
-        <a href="index.html">Trang chủ</a>
-        <a href="about.html">Thông tin</a>
-        <a href="projects.html">Dự án</a>
-        <a href="contact.html">Liên hệ</a>
+      <h1><span class="highlight">Nguyễn Đức Thành</span></h1>
+      <p>🌟 Lập trình viên | Thiết kế web | Người yêu sáng tạo</p>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="#">Trang chủ</a></li>
+          <li><a href="#">Thông tin</a></li>
+          <li><a href="#">Dự án</a></li>
+          <li><a href="#">Liên hệ</a></li>
+        </ul>
       </nav>
     </div>
   </header>
 
-  <main class="container">
-    <section class="about-me">
-      <h2>Giới thiệu bản thân</h2>
-      <p>
-        Xin chào! Tôi là <strong>Nguyễn Văn A</strong>, một lập trình viên Web với niềm đam mê mãnh liệt với công nghệ và thiết kế. 
-        Tôi đã có hơn 3 năm kinh nghiệm trong việc xây dựng giao diện người dùng thân thiện, hiện đại và tối ưu trải nghiệm người dùng.
-        Tôi đặc biệt yêu thích làm việc với các công nghệ như <em>HTML, CSS, JavaScript, React</em> và luôn mong muốn mang lại giá trị thật sự cho mỗi dự án tôi tham gia.
-      </p>
-    </section>
+  <section class="about">
+    <div class="container">
+      <div class="about-content">
+        <img src="img/avatar.png" alt="Ảnh đại diện" class="avatar" />
+        <div>
+          <h2>Xin chào! Tôi là <span class="highlight">[Nguyễn Đức Thành]</span></h2>
+          <p>Tôi là một lập trình viên với đam mê xây dựng website đẹp, hiện đại và thân thiện với người dùng. Tôi yêu thích công nghệ, thiết kế và luôn học hỏi không ngừng để mang đến sản phẩm chất lượng.</p>
+        </div>
+      </div>
+    </div>
+  </section>
 
-    <section class="goals">
-      <h2>Sứ mệnh & Mục tiêu</h2>
-      <p>
-        Mục tiêu của tôi là trở thành một lập trình viên toàn diện, không chỉ giỏi về kỹ thuật mà còn hiểu rõ người dùng cần gì. Tôi luôn học hỏi để nâng cao kỹ năng và đem lại sản phẩm chất lượng, hiệu quả.
-      </p>
-    </section>
+  <section class="skills">
+    <div class="container cards">
+      <div class="card">
+        <h3>💻 Kỹ năng lập trình</h3>
+        <p>HTML, CSS, JavaScript, React, Python, Node.js</p>
+      </div>
+      <div class="card">
+        <h3>🎨 Thiết kế UI/UX</h3>
+        <p>Figma, Canva, Photoshop</p>
+      </div>
+      <div class="card">
+        <h3>🚀 Dự án cá nhân</h3>
+        <p>Website portfolio, App todo list, Landing page</p>
+      </div>
+    </div>
+  </section>
 
-    <section class="quote">
-      <blockquote>
-        "Code không chỉ là công cụ, mà là nghệ thuật biến ý tưởng thành hiện thực."
-      </blockquote>
-    </section>
-  </main>
+  <section class="contact">
+    <div class="container">
+      <h2>📬 Liên hệ với tôi</h2>
+      <form>
+        <input type="email" placeholder="Nhập Email của bạn..." required />
+        <textarea placeholder="Tin nhắn..." rows="4" required></textarea>
+        <button type="submit">Gửi</button>
+      </form>
+    </div>
+  </section>
 
   <footer>
-    <p>&copy; 2025 Nguyễn Văn A. Thiết kế & phát triển bởi chính tôi.</p>
+    <p>&copy; 2025 Tên Của Bạn. Made with 💙 by chính bạn.</p>
   </footer>
 </body>
 </html>
