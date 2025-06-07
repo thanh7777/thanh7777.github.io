@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Khám phá thế giới. Trải nghiệm tuyệt vời, Tour trọn niềm vui" />
+    <meta name="keywords" content="Tour, professional tour, khám phá thế giới, trải nghiệm tuyệt vời, tour trọn niềm vui" />
+    <meta name="author" content="Duc Thanh" />
+    <title>Duc Thanh Tour | Thông tin</title>
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet" />
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="./css/style.css" />
+
+    <style>
+      body {
+        font-family: 'Montserrat', sans-serif;
+        margin: 0;
+        padding: 0;
+        background: #f7f7f7;
+      }
+
+      header {
+        background: #333;
+        color: #fff;
+        padding: 20px 0;
+      }
+
+      #branding h1 {
+        margin: 0;
+      }
+
+      .highlight {
+        color: #f4b400;
+      }
+
+      nav ul {
+        list-style: none;
+        padding: 0;
+      }
+
+      nav ul li {
+        display: inline;
+        margin-right: 15px;
+      }
+
+      nav ul li a {
+        color: #fff;
+        text-decoration: none;
+        transition: color 0.3s;
+      }
+
+      nav ul li a:hover {
+        color: #f4b400;
+      }
+
+      #newsletter {
+        padding: 30px;
+        background: #444;
+        color: #fff;
+        text-align: center;
+      }
+
+      #newsletter input[type="email"] {
+        padding: 10px;
+        width: 250px;
+        margin-right: 10px;
+        border: none;
+      }
+
+      .button_1 {
+        background: #f4b400;
+        color: #fff;
+        padding: 10px 20px;
+        border: none;
+        cursor: pointer;
+        transition: background 0.3s;
+      }
+
+      .button_1:hover {
+        background: #c89500;
+      }
+
+      #main {
+        padding: 40px 20px;
+        background: #fff;
+      }
+
+      .container {
+        max-width: 1100px;
+        margin: auto;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 30px;
+      }
+
+      #main-col {
+        flex: 2;
+      }
+
+      aside#sidebar {
+        flex: 1;
+        background: #f4f4f4;
+        padding: 20px;
+        border-radius: 10px;
+      }
+
+      h1.page-title {
+        margin-top: 0;
+        color: #333;
+      }
+
+      p.dark {
+        background: #eee;
+        padding: 15px;
+        border-left: 5px solid #f4b400;
+        border-radius: 5px;
+      }
+
+      .dark h3 {
+        margin-top: 0;
+      }
+
+      footer {
+        background: #222;
+        color: #aaa;
+        text-align: center;
+        padding: 20px 0;
+      }
+
+      .social-icons {
+        margin-top: 10px;
+      }
+
+      .social-icons a {
+        color: #aaa;
+        margin: 0 10px;
+        text-decoration: none;
+        transition: color 0.3s;
+      }
+
+      .social-icons a:hover {
+        color: #f4b400;
+      }
+
+      @media (max-width: 768px) {
+        .container {
+          flex-direction: column;
+        }
+
+        #newsletter input[type="email"] {
+          width: 90%;
+          margin-bottom: 10px;
+        }
+
+        .button_1 {
+          width: 90%;
+        }
+      }
+    </style>
+  </head>
+
+  <body>
+    <header>
+      <div class="container">
+        <div id="branding">
+          <h1><span class="highlight">Duc Thanh</span> Tour</h1>
+        </div>
+        <nav>
+          <ul>
+            <li><a href="trangchu.html">Trang chủ</a></li>
+            <li class="current"><a href="thongtin.html">Thông tin</a></li>
+            <li><a href="dichvu.html">Dịch vụ</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <section id="newsletter">
+      <h1>Đăng ký để nhận thông báo mới từ chúng tôi</h1>
+      <form>
+        <input type="email" placeholder="Nhập Email..." required />
+        <button type="submit" class="button_1">Đăng ký</button>
+      </form>
+    </section>
+
+    <section id="main">
+      <div class="container">
+        <article id="main-col">
+          <h1 class="page-title">Về chúng tôi</h1>
+          <p>
+            Chúng tôi luôn lắng nghe nhu cầu và những góp ý từ khách hàng, để không ngừng cải tiến chất lượng dịch vụ.
+          </p>
+          <p class="dark">
+            Với hơn 20 năm kinh nghiệm trong ngành du lịch, Duc Thanh Tour tự hào mang đến những chuyến đi đáng nhớ, an toàn và đầy cảm hứng cho mọi hành trình.
+          </p>
+        </article>
+
+        <aside id="sidebar">
+          <div class="dark">
+            <h3>Dịch vụ chúng tôi</h3>
+            <p>
+              Chúng tôi cung cấp tour du lịch trong và ngoài nước, thiết kế tour theo yêu cầu, hỗ trợ visa – vé máy bay, đặt phòng khách sạn với chất lượng hàng đầu và mức giá hợp lý.
+            </p>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <footer>
+      <p>Duc Thanh Tour &copy; 2025</p>
+      <div class="social-icons">
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-youtube"></i></a>
+      </div>
+    </footer>
+  </body>
+</html>
