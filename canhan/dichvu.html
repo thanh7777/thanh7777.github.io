@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Dịch vụ | Nguyễn Đức Thành</title>
+  <title>Liên hệ | Nguyễn Đức Thành</title>
   <link rel="stylesheet" href="./css/style.css" />
 </head>
 <body>
@@ -16,32 +16,41 @@
         <ul class="nav-links">
           <li><a href="trangchu.html">Trang chủ</a></li>
           <li><a href="thongtin.html">Thông tin</a></li>
-          <li class="current"><a href="dichvu.html">Dịch vụ</a></li>
+          <li class="current"><a href="lienhe.html">Liên hệ</a></li>
         </ul>
       </nav>
     </div>
   </header>
 
-  <!-- NỘI DUNG DỊCH VỤ -->
-  <section class="services">
+  <!-- THÔNG TIN LIÊN HỆ -->
+  <section class="contact-info">
     <div class="container">
-      <h2>Dịch vụ của tôi</h2>
-      <p>Tôi cung cấp các dịch vụ liên quan đến thiết kế và phát triển web. Với kinh nghiệm và sự sáng tạo, tôi luôn đảm bảo sản phẩm mang lại trải nghiệm tốt nhất cho người dùng.</p>
-      
-      <div class="service-boxes">
-        <div class="box">
-          <h3>💻 Thiết kế website</h3>
-          <p>Giao diện hiện đại, phù hợp với mục tiêu kinh doanh và tối ưu trải nghiệm người dùng.</p>
-        </div>
-        <div class="box">
-          <h3>⚙️ Lập trình Front-end</h3>
-          <p>Sử dụng HTML, CSS, JavaScript để xây dựng giao diện thân thiện, responsive.</p>
-        </div>
-        <div class="box">
-          <h3>🔧 Tối ưu hiệu suất</h3>
-          <p>Cải thiện tốc độ tải trang và tối ưu SEO để tăng hiệu quả tìm kiếm.</p>
-        </div>
-      </div>
+      <h2>Thông tin liên hệ</h2>
+      <p>Bạn có thể liên hệ với tôi qua các phương thức sau:</p>
+      <ul>
+        <li>📧 Email: <strong>nguyenducthanh@example.com</strong></li>
+        <li>📞 Điện thoại: <strong>+84 123 456 789</strong></li>
+        <li>🌍 Địa chỉ: <strong>Hà Nội, Việt Nam</strong></li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- FORM LIÊN HỆ -->
+  <section class="contact-form">
+    <div class="container">
+      <h2>Gửi tin nhắn</h2>
+      <form>
+        <label for="name">Họ và tên:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="message">Nội dung:</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+
+        <button type="submit">Gửi</button>
+      </form>
     </div>
   </section>
 
