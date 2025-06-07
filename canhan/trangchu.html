@@ -1,234 +1,93 @@
 <!DOCTYPE html>
 <html lang="vi">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Khám phá thế giới. Trải nghiệm tuyệt vời, Tour trọn niềm vui" />
-    <meta name="keywords" content="Tour, professional tour, khám phá thế giới, trải nghiệm tuyệt vời, tour trọn niềm vui" />
-    <meta name="author" content="Duc Thanh" />
-    <title>Duc Thanh Tour | Trang chủ</title>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Profile Phạm Ngọc Hiếu - Full Stack Developer chuyên về .NET, Web Development" />
+  <meta name="keywords" content="full stack developer, .NET developer, web development, C#, HTML, CSS, SQL, WordPress" />
+  <title>Profile - Nguyễn Đức Thành | Full Stack Developer</title>
+  <link rel="stylesheet" href="../CSS/style.css" />
+  <link rel="icon" type="image/x-icon" href="favicon.ico" />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet" />
+</head>
 
-    <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet" />
-
-    <!-- Font Awesome for icons -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
-
-    <!-- Custom CSS -->
-    <link rel="stylesheet" href="./css/style.css" />
-    
-    <style>
-      body {
-        font-family: 'Montserrat', sans-serif;
-        margin: 0;
-        padding: 0;
-        background: #f9f9f9;
-      }
-
-      header {
-        background: #333;
-        color: #fff;
-        padding: 20px 0;
-      }
-
-      #branding h1 {
-        margin: 0;
-      }
-
-      .highlight {
-        color: #f4b400;
-      }
-
-      nav ul {
-        list-style: none;
-        padding: 0;
-      }
-
-      nav ul li {
-        display: inline;
-        margin-right: 15px;
-      }
-
-      nav ul li a {
-        color: #fff;
-        text-decoration: none;
-        transition: color 0.3s;
-      }
-
-      nav ul li a:hover {
-        color: #f4b400;
-      }
-
-      #showcase {
-        background: url('img/hero.jpg') no-repeat center center/cover;
-        color: #fff;
-        text-align: center;
-        padding: 100px 20px;
-      }
-
-      #showcase h1 {
-        font-size: 2.5em;
-        margin-bottom: 10px;
-      }
-
-      #showcase p {
-        font-size: 1.2em;
-        max-width: 700px;
-        margin: 0 auto 20px;
-      }
-
-      .button_1 {
-        background: #f4b400;
-        color: #fff;
-        padding: 10px 20px;
-        border: none;
-        cursor: pointer;
-        transition: background 0.3s;
-      }
-
-      .button_1:hover {
-        background: #c89500;
-      }
-
-      #newsletter {
-        padding: 30px;
-        background: #333;
-        color: #fff;
-        text-align: center;
-      }
-
-      #newsletter input[type="email"] {
-        padding: 10px;
-        width: 250px;
-        margin-right: 10px;
-        border: none;
-      }
-
-      #boxes {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-around;
-        padding: 40px 20px;
-        background: #fff;
-      }
-
-      .box {
-        flex: 1 1 30%;
-        background: #f4f4f4;
-        margin: 10px;
-        padding: 20px;
-        border-radius: 10px;
-        transition: transform 0.3s;
-      }
-
-      .box:hover {
-        transform: translateY(-5px);
-      }
-
-      .box img {
-        width: 100%;
-        border-radius: 10px;
-        margin-bottom: 15px;
-      }
-
-      footer {
-        background: #222;
-        color: #aaa;
-        text-align: center;
-        padding: 20px 0;
-      }
-
-      .social-icons {
-        margin-top: 10px;
-      }
-
-      .social-icons a {
-        color: #aaa;
-        margin: 0 10px;
-        text-decoration: none;
-        transition: color 0.3s;
-      }
-
-      .social-icons a:hover {
-        color: #f4b400;
-      }
-
-      @media (max-width: 768px) {
-        #boxes {
-          flex-direction: column;
-          align-items: center;
-        }
-
-        .box {
-          width: 90%;
-        }
-
-        #newsletter input[type="email"] {
-          width: 90%;
-          margin-bottom: 10px;
-        }
-
-        .button_1 {
-          width: 90%;
-        }
-      }
-    </style>
-  </head>
-  <body>
-    <header>
-      <div class="container">
-        <div id="branding">
-          <h1><span class="highlight">Duc Thanh</span> Tour</h1>
+<body>
+  <div class="container">
+    <!-- Sidebar -->
+    <aside class="sidebar">
+      <div class="profile-header">
+        <div class="profile-avatar">
+          <img src="../img/avatar.png" alt="Ảnh đại diện Nguyễn Đức Thành" />
         </div>
-        <nav>
-          <ul>
-            <li class="current"><a href="trangchu.html">Trang chủ</a></li>
-            <li><a href="thongtin.html">Thông tin</a></li>
-            <li><a href="dichvu.html">Dịch vụ</a></li>
-          </ul>
-        </nav>
+        <h1 class="profile-name">Nguyễn Đức Thành</h1>
+        <p class="profile-title">Full Stack Developer</p>
+        <div class="profile-status">
+          <span class="status-dot"></span> Sẵn sàng nhận dự án
+        </div>
       </div>
-    </header>
 
-    <section id="showcase">
-      <h1>Khám phá thế giới. Trải nghiệm tuyệt vời, Tour du lịch trọn niềm vui.</h1>
-      <p>Hành trình khám phá những miền đất mới, kết nối văn hóa và tận hưởng từng khoảnh khắc đáng nhớ cùng dịch vụ tour du lịch chuyên nghiệp, tận tâm.</p>
-      <button class="button_1">Khám phá ngay</button>
-    </section>
+      <nav class="nav-menu" aria-label="Menu điều hướng">
+        <a href="index.html" class="nav-item active" title="Giới thiệu">
+          <i class="fas fa-user"></i><span>Giới thiệu</span>
+        </a>
+        <a href="skills.html" class="nav-item" title="Tech Stack">
+          <i class="fas fa-code"></i><span>Tech Stack</span>
+        </a>
+        <a href="projects.html" class="nav-item" title="Dự án">
+          <i class="fas fa-briefcase"></i><span>Dự án</span>
+        </a>
+        <a href="contact.html" class="nav-item" title="Liên hệ">
+          <i class="fas fa-envelope"></i><span>Liên hệ</span>
+        </a>
+      </nav>
 
-    <section id="newsletter">
-      <h1>Đăng ký để nhận thông báo mới từ chúng tôi</h1>
-      <form>
-        <input type="email" placeholder="Nhập Email..." required />
-        <button type="submit" class="button_1">Đăng ký</button>
-      </form>
-    </section>
+      <ul class="contact-info">
+        <li><i class="fas fa-envelope"></i> thanhz0981@gmail.com</li>
+        <li><i class="fas fa-phone"></i> (+84) 972020351</li>
+        <li><i class="fas fa-map-marker-alt"></i> Nha Trang, Việt Nam</li>
+        <li><i class="fas fa-globe"></i> <a href="https://www.ducthanh.dev" target="_blank">www.ducthanh.dev</a></li>
+      </ul>
 
-    <section id="boxes">
-      <div class="box">
-        <img src="img/img1.webp" alt="Thác Yang Bay" />
-        <h3>Khu Du Lịch Thác Yang Bay Ở Nha Trang</h3>
-        <p>Nét quyến rũ của Thác Yang Bay không chỉ nằm ở khung cảnh núi rừng hùng vĩ mà còn ở sự chân chất và hài hước của người dân tộc Raglai.</p>
+      <div class="social-links">
+        <a href="https://github.com/thanh7777" target="_blank" title="GitHub" aria-label="GitHub">
+          <i class="fab fa-github"></i>
+        </a>
+        <a href="https://www.instagram.com/_ngducthanhh/" target="_blank" title="LinkedIn" aria-label="LinkedIn">
+          <i class="fab fa-linkedin"></i>
+        </a>
+        <a href="https://www.facebook.com/ucthanh.508079/" target="_blank" title="Facebook" aria-label="Facebook">
+          <i class="fab fa-facebook"></i>
+        </a>
       </div>
-      <div class="box">
-        <img src="img/img2.jpg" alt="Nhà Hát Đó" />
-        <h3>Nhà Hát Đó Ở Nha Trang</h3>
-        <p>Nhà hát mang kiến trúc độc đáo lấy cảm hứng từ chiếc đó - dụng cụ truyền thống dùng để đánh bắt cá của người dân miền biển.</p>
-      </div>
-      <div class="box">
-        <img src="img/img3.png" alt="Nhà Thờ Đá" />
-        <h3>Nhà Thờ Đá Nha Trang</h3>
-        <p>Với lối kiến trúc Gothic ấn tượng, nhà thờ là điểm nhấn thu hút nhiều du khách khi đến với thành phố biển xinh đẹp này.</p>
-      </div>
-    </section>
+    </aside>
 
-    <footer>
-      <p>Duc Thanh Tour &copy; 2025</p>
-      <div class="social-icons">
-        <a href="#"><i class="fab fa-facebook-f"></i></a>
-        <a href="#"><i class="fab fa-instagram"></i></a>
-        <a href="#"><i class="fab fa-youtube"></i></a>
-      </div>
-    </footer>
-  </body>
+    <!-- Main Content -->
+    <main class="main-content">
+      <header class="content-header">
+        <h2 class="content-title">Xin chào! 👋</h2>
+        <p class="intro-text">
+          Tôi là một Full Stack Developer với đam mê tạo ra những sản phẩm web hiệu quả và chất lượng cao. Với kinh nghiệm trong cả frontend và backend, tôi có thể xây dựng ứng dụng từ ý tưởng đến khi hoàn thiện.
+        </p>
+      </header>
+
+      <section class="expertise-section">
+        <h3>Chuyên môn của tôi:</h3>
+        <ul class="expertise-list">
+          <li><i class="fas fa-laptop-code"></i> <strong>Frontend:</strong> HTML5, CSS3, responsive UI</li>
+          <li><i class="fas fa-server"></i> <strong>Backend:</strong> C#, ASP.NET, REST API</li>
+          <li><i class="fas fa-database"></i> <strong>Database:</strong> SQL Server, PostgreSQL</li>
+          <li><i class="fab fa-wordpress"></i> <strong>WordPress:</strong> Theme & Plugin Development</li>
+          <li><i class="fab fa-github"></i> <strong>Git:</strong> Version control, teamwork hiệu quả</li>
+        </ul>
+      </section>
+
+      <section class="philosophy-section">
+        <h3>Triết lý làm việc:</h3>
+        <p>
+          Tôi tin rằng một sản phẩm tốt không chỉ là code sạch, mà còn giải quyết đúng vấn đề và tối ưu trải nghiệm người dùng.
+        </p>
+      </section>
+    </main>
+  </div>
+</body>
 </html>
